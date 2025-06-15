@@ -40,16 +40,18 @@ dependencies:
   provider: ^6.1.2
 
   # For using additional icons (FontAwesome, MaterialCommunityIcons, etc.)
-  flutter_icons: ^1.1.0
+  iconly: ^1.0.1
 
   # For animations (like sparkles, loading effects, etc.)
-  lottie: ^2.7.0
+  lottie: ^3.3.1
 
+  #Fonts
+  font_awesome_flutter: ^10.0.0
   # Helps make your UI responsive across screen sizes.
   flutter_screenutil: ^5.9.0
 
   # Navigation and routing with animations and deep linking.
-  go_router: ^13.1.0
+  go_router: ^15.2.0
 
   # For HTTP requests (REST APIs, etc.)
   http: ^1.2.1
@@ -61,7 +63,7 @@ dev_dependencies:
     sdk: flutter
 
   # Helps ensure your code follows best practices.
-  flutter_lints: ^3.0.1
+  flutter_lints: ^6.0.0
 
 # Flutter-specific settings go under this section.
 flutter:
@@ -71,7 +73,7 @@ flutter:
   # Declare the folders and files you want to include as assets.
   # These are images, icons, fonts, or animations used in your app.
   assets:
-    - assets/images/        # Store product images like rings, bracelets, etc.
+    - assets/images/Logo2.png   # Store product images like rings, bracelets, etc.
     - assets/icons/         # Icons such as cart, home, filter
     - assets/fonts/         # Custom fonts (if any)
     - assets/animations/    # Lottie or Rive animations (optional)
