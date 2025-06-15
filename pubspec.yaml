@@ -1,0 +1,78 @@
+#A YAML file is like a human-friendly settings file that Flutter (or other tools) can easily understand and use to configure your project
+#
+#The pubspec.yaml file tells Flutter:
+
+      #The name and version of your app
+
+      #What packages (dependencies) your app needs
+
+      #What assets (images, fonts, icons) you want to include
+
+      #App environment (like Dart SDK version)
+
+
+
+
+# The name of your Flutter project.
+name: kadriu
+
+# A short description of what your app does.
+description: A beautiful cross-platform jewelry store app.
+
+# This controls whether the package can be published publicly.
+# 'none' means it will stay private and won’t be published to pub.dev.
+publish_to: 'none'
+
+# Version number: major.minor.patch+build
+version: 1.0.0+1
+
+# The minimum and maximum Dart SDK version your project supports.
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+# Here we declare all the packages (dependencies) we want to use.
+dependencies:
+  # This is the core Flutter SDK dependency.
+  flutter:
+    sdk: flutter
+
+  # State management package – helps manage app-wide data.
+  provider: ^6.1.2
+
+  # For using additional icons (FontAwesome, MaterialCommunityIcons, etc.)
+  flutter_icons: ^1.1.0
+
+  # For animations (like sparkles, loading effects, etc.)
+  lottie: ^2.7.0
+
+  # Helps make your UI responsive across screen sizes.
+  flutter_screenutil: ^5.9.0
+
+  # Navigation and routing with animations and deep linking.
+  go_router: ^13.1.0
+
+  # For HTTP requests (REST APIs, etc.)
+  http: ^1.2.1
+
+# These are packages needed only in development/testing.
+dev_dependencies:
+  # For writing widget/unit tests.
+  flutter_test:
+    sdk: flutter
+
+  # Helps ensure your code follows best practices.
+  flutter_lints: ^3.0.1
+
+# Flutter-specific settings go under this section.
+flutter:
+  # This tells Flutter to use Material Design icons and components.
+  uses-material-design: true
+
+  # Declare the folders and files you want to include as assets.
+  # These are images, icons, fonts, or animations used in your app.
+  assets:
+    - assets/images/        # Store product images like rings, bracelets, etc.
+    - assets/icons/         # Icons such as cart, home, filter
+    - assets/fonts/         # Custom fonts (if any)
+    - assets/animations/    # Lottie or Rive animations (optional)
+
